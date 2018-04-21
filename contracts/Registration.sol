@@ -10,6 +10,7 @@ contract Registration is Ownable {
   mapping (uint=>Relationship) registrations;
   uint curIndex;
   function Registration() {
+    curIndex = 0;
     // constructor
   }
 
